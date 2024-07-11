@@ -49,7 +49,7 @@ nav div:last-child {
 header {
     margin-top: 80px;
     height: 900px;
-    background-image: url('../img/banner.jpg');
+    background-image: url('img/banner.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -87,7 +87,7 @@ header .mascara {
 section.servicios {
     color: white;
     background-color: black;
-    background-image: url(../img/background-black-spray.webp);
+    background-image: url(img/background-black-spray.webp);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
