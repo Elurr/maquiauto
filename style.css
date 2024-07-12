@@ -83,18 +83,29 @@ header .mascara {
     background-color: rgba(40, 40, 40, .1);
 }
 
-
-section.servicios {
+section {
     color: white;
+    height: 650px;
     background-color: black;
-    background-image: url(../img/background-black-spray.webp);
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+    position: relative;
+}
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+section.servicios {
+    background-image: url(../img/background-black-spray.webp);
+    /* background-size: cover;
+    background-attachment: fixed; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 650px;
 }
 section.servicios .contenedor-servicios {
     display: flex; 
@@ -110,11 +121,39 @@ section.servicios .contenedor-servicios {
     width: 115px;
     height: 115px;
 }
-.servicios h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
 .servicios .logo svg {
     height: 95px;
     font-size: 40px;
+}
+
+section#galeria {
+    background-image: url(img/pexels-artempodrez-8986070.jpg);
+}
+#galeria h2{
+    position: absolute;
+    top: 170px;
+}
+
+section#marcas {
+    background-color: white;
+    color: #949494;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#marcas .contenedor-marcas {
+    overflow: hidden;
+}
+#marcas .contenedor-marcas .fila-marcas {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 200%;
+}
+#marcas .image {
+    width: 100%;
+
 }
