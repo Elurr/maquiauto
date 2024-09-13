@@ -1,4 +1,4 @@
-let loop = horizontalLoop(".image", {speed: 1, repeat: -1, paddingRight: 25});
+let loop = horizontalLoop(".image", {speed: 1, repeat: -1, paddingRight: 150});
 
 function setDirection(value) {
   if (loop.direction !== value) {
